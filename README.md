@@ -26,7 +26,10 @@ fiyat (Price)               : The listed price of the property in Turkish Lira (
 ## 🧪 Results
 - **R² Score**: 0.30
 - **MSE**: ~0.22  
-these scores are not much right
+These results are reasonable as a baseline, but not yet strong.Beacause;
+    - The relationship between features and target might be non-linear, and linear regression may not capture that well
+    - Trying more complex models (e.g., Random Forest, Gradient Boosting)  boosts the result(it will boost R² Score to 0.60 to0.80
+
 
 ## 🚀 Future Improvements
 - Use tree-based models (e.g., RandomForest, XGBoost).it will boost the results (R² Score boosted to 0.62)
